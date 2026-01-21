@@ -27,8 +27,10 @@ function LandingPage() {
         <GrowthSection />
       </SectionZoom>
 
-  
-        <CuratedSolutionsSection />
+
+
+      <CuratedSolutionsSection />
+
 
 
     </Layout>

@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
     <div className="h-screen overflow-y-scroll md:snap-y md:snap-mandatory scroll-smooth">
       <main
         ref={containerRef}
-        className="h-screen  snap-y scroll-smooth"
+        className="h-screen overflow-y-scroll snap-y scroll-smooth"
       >
         <Navbar />
         {children}

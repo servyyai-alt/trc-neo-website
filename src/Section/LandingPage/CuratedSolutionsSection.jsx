@@ -17,7 +17,7 @@ const CuratedSolutionsSection = () => {
   
     <section
       id="curated"
-      className="relative w-full overflow-hidden
+      className="relative w-full overflow-hidden 
       bg-gradient-to-b from-white via-[#fff9ef] to-[#FFECBC]"
     >
       {/* ✅ Animated Content Only */}

@@ -61,7 +61,7 @@ const prev = () => {
             Financing Designed <br /> with Perspective
           </h2>
 
-          <p className="text-gray-600 max-w-md mb-6 text-base">
+          <p className="text-gray-600 max-w-md mb-6 font-montserrat text-base">
             Financing needs rarely arise in isolation. At Arvesta, we always
             design lending solutions with an understanding of the broader
             financial context and aligned with client goals.

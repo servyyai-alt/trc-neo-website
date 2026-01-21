@@ -17,11 +17,11 @@ const FinanceCard = ({ title, text, isActive }) => {
         className="absolute -top-12 -right-12 w-56 opacity-15 pointer-events-none"
       />
 
-      <h3 className="font-instrument text-3xl leading-tight mb-6 relative z-10">
+      <h3 className="font-instrument text-[46px] leading-tight mb-6 relative z-10">
         {title}
       </h3>
 
-      <p className="font-montserrat text-sm leading-relaxed relative z-10 max-w-sm">
+      <p className="font-montserrat text-[18px] leading-relaxed relative z-10 max-w-sm">
         {text}
       </p>
     </div>
