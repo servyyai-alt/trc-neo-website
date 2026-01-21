@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Montserrat:wght@300;400;500;600&display=swap");
+
+@import "tailwindcss";
+/* Ensure Instrument Serif font is properly loaded */
+@layer base {
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-instrument {
+    font-family: '"Instrument Serif"' !important;
+    
+  }
+}
+body {
+  overflow: hidden;
+}
