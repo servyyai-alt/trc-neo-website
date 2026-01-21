@@ -4,13 +4,13 @@
 /* Ensure Instrument Serif font is properly loaded */
 @layer base {
   .font-montserrat {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
   }
 }
 
 @layer utilities {
   .font-instrument {
-    font-family: '"Instrument Serif"' !important;
+    font-family: "Instrument Serif", serif;
     
   }
 }
