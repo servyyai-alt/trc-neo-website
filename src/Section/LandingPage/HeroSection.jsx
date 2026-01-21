@@ -49,7 +49,7 @@ const HeroSection = () => {
                             text-[30px]
                             leading-[38px]
                             tracking-normal
-                            text-gray-300
+                            text-white
                           "
               >
                 Designed for individuals, families, and institutions <br />
