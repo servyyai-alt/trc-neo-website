@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 import { FiPhone, FiMail } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { FaLinkedinIn, FaInstagram, FaYoutube } from "react-icons/fa";
-
+import { FaLinkedin } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className="w-full text-gray-300 snap-start">
@@ -82,8 +82,8 @@ const Footer = () => {
               CONNECT
             </p>
 
-            <div className="flex gap-4 text-white">
-              <FaLinkedinIn />
+            <div className="flex gap-4 text-[#8D8D8D] text-2xl">
+              <FaLinkedin />
               <FaInstagram />
               <FaYoutube />
             </div>
