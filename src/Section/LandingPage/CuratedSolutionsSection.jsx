@@ -6,9 +6,9 @@ import SectionZoom from "../../components/SectionZoom";
 import Footer from "../../components/Footer";
 
 const cardData = [
-  { title: "Disciplined credit\nevaluation" },
-  { title: "Bespoke structuring\naligned to client objectives" },
-  { title: "Ongoing monitoring\nand governance" },
+  { title: "Long-term orientation to capital and risk" },
+  { title: "Structured solutions built with clarity and discipline " },
+  { title: "Strong governance and institutional oversight " },
   { title: "Alignment with broader wealth objectives" },
 ];
 
@@ -47,14 +47,14 @@ const CuratedSolutionsSection = () => {
               {cardData.map((card, index) => (
                 <div
                   key={index}
-                  className="relative bg-white rounded-2xl border border-[#d6b36a] shadow-lg h-[260px] flex items-center justify-center text-center overflow-hidden"
+                  className="relative bg-white rounded-2xl border border-[#d6b36a] shadow-lg h-[260px] px-2 flex items-center justify-center text-center overflow-hidden"
                 >
                   <img
                     src={cardBg}
                     className="absolute -top-40 left-1/2 -translate-x-1/2 w-76 opacity-20"
                     alt=""
                   />
-                  <h4 className="font-instrument text-2xl lg:text-3xl text-[#1c1b3a] relative z-10 px-6 whitespace-pre-line">
+                  <h4 className="font-montserrat text-2xl lg:text-3xl text-[#1c1b3a] relative z-10 whitespace-pre-line">
                     {card.title}
                   </h4>
                 </div>
