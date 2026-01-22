@@ -47,7 +47,7 @@ const prev = () => {
 
   return (
 
-    <section id="finance" className="relative w-full bg-white py-24 overflow-hidden snap-start">
+    <section id="finance" className="relative w-full bg-white py-24 overflow-hidden snap-start ">
 
       {/* glow */}
       <div className="absolute top-0 left-0 w-full h-30 bg-gradient-to-b from-[#ffeec4] via-[#f9f4e6] to-transparent" />
@@ -57,14 +57,12 @@ const prev = () => {
 
         {/* LEFT CONTENT */}
         <div>
-          <h2 className="font-instrument text-4xl md:text-[64px] leading-tight text-[#1c1b3a] mb-6">
+          <h2 className="font-instrument text-4xl md:text-[66px] leading-tight text-[#1c1b3a] mb-6">
             Financing Designed <br /> with Perspective
           </h2>
 
-          <p className="text-gray-600 max-w-md mb-6 font-montserrat text-base">
-            Financing needs rarely arise in isolation. At Arvesta, we always
-            design lending solutions with an understanding of the broader
-            financial context and aligned with client goals.
+          <p className="text-gray-600 max-w-md mb-6 md:text-xl font-montserrat text-base">
+            Financing needs rarely arise in isolation. They often sit alongside investment decisions, liquidity planning, succession considerations, or portfolio restructuring. At Arvesta, we design lending solutions with an understanding of the broader financial context in which they are used. 
           </p>
 
           <span className="flex items-center gap-1 font-montserrat text-[#AC8A3A] font-semibold underline mb-8 cursor-pointer">
