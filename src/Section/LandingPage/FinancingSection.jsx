@@ -47,11 +47,11 @@ const prev = () => {
 
   return (
 
-    <section id="finance" className="relative w-full bg-[#fff9ef] py-24 overflow-hidden snap-start">
+    <section id="finance" className="relative w-full bg-white py-24 overflow-hidden snap-start">
 
       {/* glow */}
-      <div className="absolute top-0 left-0 w-full h-40 bg-gradient-to-b from-[#FFE9B8] to-transparent" />
-      <div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-t from-[#FFE9B8] to-transparent" />
+      <div className="absolute top-0 left-0 w-full h-30 bg-gradient-to-b from-[#ffeec4] via-[#f9f4e6] to-transparent" />
+      <div className="absolute bottom-0 left-0 w-full h-30 bg-gradient-to-t from-[#ffeec4] via-[#f9f4e6] to-transparent" />
 
       <div className="w-full pl-10 lg:pl-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
 
@@ -67,7 +67,7 @@ const prev = () => {
             financial context and aligned with client goals.
           </p>
 
-          <span className="flex items-center gap-1 text-[#AC8A3A] font-semibold underline mb-8 cursor-pointer">
+          <span className="flex items-center gap-1 font-montserrat text-[#AC8A3A] font-semibold underline mb-8 cursor-pointer">
             Discover Our Solutions <MdArrowOutward />
           </span>
 

@@ -23,16 +23,16 @@ const Footer = () => {
 
             <div className="text-sm text-[#8D8D8D] space-y-3">
 
-              <div className="flex flex-wrap items-center gap-x-2 gap-y-2">
+              <div className="flex flex-wrap items-center gap-x-2 gap-y-2 font-montserrat">
                 <div className="flex items-center gap-2">
-                  <FiPhone className="text-[#d6b36a]" />
+                  <FiPhone className="text-[#8D8D8D]" />
                   <span>+91-22-66423600</span>
                 </div>
 
                 <span className="text-[#d6b36a]">|</span>
 
                 <div className="flex items-center gap-2">
-                  <FiMail className="text-[#d6b36a]" />
+                  <FiMail className="text-[#8D8D8D]" />
                   <span> NeoNBFC@neo-group.in</span>
                 </div>
 
@@ -41,8 +41,8 @@ const Footer = () => {
                 <span>License No. 00000000000</span>
               </div>
 
-              <div className="flex items-start gap-2">
-                <HiOutlineLocationMarker className="text-[#d6b36a] mt-0.5" />
+              <div className="flex items-start gap-2 font-montserrat">
+                <HiOutlineLocationMarker className="text-[#8D8D8D] mt-0.5" />
                 <span>
                   B-903, Marathon Futurex, Lower Parel, Mumbai, Maharashtra - 400013
                 </span>
@@ -78,7 +78,7 @@ const Footer = () => {
             <p className="text-white mb-2 font-montserrat">Lorem Ipsum</p>
             <p className="text-white mb-6 font-montserrat">Lorem Ipsum</p> */}
 
-            <p className="text-lg tracking-widest text-[#9a9a9a] mb-3 font-instrument">
+            <p className="text-lg tracking-widest text-[#9a9a9a] mb-3 font-montserrat">
               CONNECT
             </p>
 

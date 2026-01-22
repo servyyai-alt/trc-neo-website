@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import LandingPage from './page/LandingPage'
+import { Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import LandingPage from "./page/LandingPage";
+import AboutPage from "./page/AboutPage";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <LandingPage/>
-  )
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/about" element={<AboutPage />} />
+      </Routes>
+  );
 }
 
-export default App
+export default App;

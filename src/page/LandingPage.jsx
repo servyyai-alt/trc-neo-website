@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroSection from '../Section/LandingPage/HeroSection'
 import Layout from '../components/Layout'
-import AboutSection from '../Section/LandingPage/AboutSectio'
+import AboutSection from '../Section/LandingPage/AboutSection'
 import FinancingSection from '../Section/LandingPage/FinancingSection'
 import GrowthSection from '../Section/LandingPage/SupportWealthSection'
 import CuratedSolutionsSection from '../Section/LandingPage/CuratedSolutionsSection'
@@ -11,21 +11,21 @@ function LandingPage() {
   return (
     <Layout>
 
-      <SectionZoom>
+      {/* <SectionZoom> */}
         <HeroSection />
-      </SectionZoom>
+      {/* </SectionZoom> */}
 
-      <SectionZoom>
+      {/* <SectionZoom> */}
         <AboutSection />
-      </SectionZoom>
+      {/* </SectionZoom> */}
 
-      <SectionZoom>
+      {/* <SectionZoom> */}
         <FinancingSection />
-      </SectionZoom>
+      {/* </SectionZoom> */}
 
-      <SectionZoom>
+      {/* <SectionZoom> */}
         <GrowthSection />
-      </SectionZoom>
+      {/* </SectionZoom> */}
 
 
 
