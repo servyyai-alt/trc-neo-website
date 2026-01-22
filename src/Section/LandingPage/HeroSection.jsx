@@ -50,7 +50,7 @@ const HeroSection = () => {
                   text-white
                 "
               >
-                Designed for individuals, families, and institutions <br />
+                Designed for individuals, families, and institutions <br className="md:block hidden" />
                 where capital, complexity, and responsibility converge.
               </p>
 

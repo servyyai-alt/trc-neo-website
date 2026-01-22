@@ -4,15 +4,29 @@ import { MdArrowOutward } from "react-icons/md";
 import cardBg from "../../assets/HeroImage/mandala.gif";
 import SectionZoom from "../../components/SectionZoom";
 import Footer from "../../components/Footer";
+import { useEffect, useState } from "react";
+
 
 const cardData = [
-  { title: "Long-term orientation to capital and risk" },
-  { title: "Structured solutions built with clarity and discipline " },
-  { title: "Strong governance and institutional oversight " },
+  { title: "Disciplined credit\nevaluation" },
+  { title: "Bespoke structuring\naligned to client objectives" },
+  { title: "Ongoing monitoring\nand governance" },
   { title: "Alignment with broader wealth objectives" },
 ];
 
 const CuratedSolutionsSection = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentIndex((prev) =>
+      prev === cardData.length - 1 ? 0 : prev + 1
+    );
+  }, 3000);
+
+  return () => clearInterval(interval);
+}, []);
+
   return (<>
   
     <section
@@ -42,25 +56,49 @@ const CuratedSolutionsSection = () => {
           </div>
 
           {/* CARD SECTION */}
-          <div className="relative -mt-20 z-20">
-            <div className="max-w-7xl mx-auto px-10 grid grid-cols-1 md:grid-cols-4 gap-8">
-              {cardData.map((card, index) => (
-                <div
-                  key={index}
-                  className="relative bg-white rounded-2xl border border-[#d6b36a] shadow-lg h-[260px] px-2 flex items-center justify-center text-center overflow-hidden"
-                >
-                  <img
-                    src={cardBg}
-                    className="absolute -top-40 left-1/2 -translate-x-1/2 w-76 opacity-20"
-                    alt=""
-                  />
-                  <h4 className="font-montserrat text-2xl lg:text-3xl text-[#1c1b3a] relative z-10 whitespace-pre-line">
-                    {card.title}
-                  </h4>
-                </div>
-              ))}
-            </div>
-          </div>
+<div className="relative -mt-20 z-20">
+  <div className="max-w-7xl mx-auto px-10">
+    
+<div className="block md:hidden overflow-hidden">
+  <div
+    key={currentIndex}
+    className="max-w-md mx-auto relative bg-white rounded-2xl border border-[#d6b36a] shadow-lg h-[260px] flex items-center justify-center text-center overflow-hidden
+               animate-slide"
+  >
+    <img
+      src={cardBg}
+      className="absolute -top-40 left-1/2 -translate-x-1/2 w-76 opacity-20"
+      alt=""
+    />
+    <h4 className="font-instrument text-2xl text-[#1c1b3a] relative z-10 px-6 whitespace-pre-line">
+      {cardData[currentIndex].title}
+    </h4>
+  </div>
+</div>
+
+
+    {/* ✅ DESKTOP — GRID */}
+    <div className="hidden md:grid grid-cols-4 gap-8">
+      {cardData.map((card, index) => (
+        <div
+          key={index}
+          className="relative bg-white rounded-2xl border border-[#d6b36a] shadow-lg h-[260px] flex items-center justify-center text-center overflow-hidden"
+        >
+          <img
+            src={cardBg}
+            className="absolute -top-40 left-1/2 -translate-x-1/2 w-76 opacity-20"
+            alt=""
+          />
+          <h4 className="font-instrument text-2xl lg:text-3xl text-[#1c1b3a] relative z-10 px-6 whitespace-pre-line">
+            {card.title}
+          </h4>
+        </div>
+      ))}
+    </div>
+
+  </div>
+</div>
+
 
           {/* CTA BUTTON */}
           <div className="max-w-7xl mx-auto px-10 mt-16 pb-24 relative z-20">
@@ -69,7 +107,7 @@ const CuratedSolutionsSection = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="font-instrument w-full bg-[#b48b3c] text-white py-5 rounded-lg flex items-center justify-between px-8 text-lg md:text-[40px] font-medium shadow-md hover:bg-[#a47c2f] transition">
+              <button className="font-instrument w-full bg-[#b48b3c] text-white py-5 rounded-lg flex items-center justify-between px-8 text-2xl md:text-[40px] font-medium shadow-md hover:bg-[#a47c2f] transition">
                 Reach Out To Us
                 <MdArrowOutward className="text-3xl" />
               </button>
