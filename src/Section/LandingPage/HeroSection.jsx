@@ -17,7 +17,7 @@ const HeroSection = () => {
           />
 
           {/* Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/20"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10"></div>
 
           {/* TEXT */}
           <div className="absolute inset-0 flex items-end pb-26 md:pb-28 max-w-7xl">
@@ -44,7 +44,7 @@ const HeroSection = () => {
                   max-w-5xl
                   font-montserrat
                   font-normal
-                  text-[18px] sm:text-[22px] md:text-[30px] lg:text-[30px]
+                  text-[16px] sm:text-[22px] md:text-[30px] lg:text-[30px]
                   leading-[1.3]
                   tracking-normal
                   text-white

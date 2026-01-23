@@ -83,7 +83,7 @@ const FinancingSection = () => {
             financial context and aligned with client goals.
           </p>
  
-          <span className="flex items-center gap-1 md:text-[18px] text-[#AC8A3A] font-semibold font-Montserrat underline mb-8 cursor-pointer">
+          <span className="flex items-center gap-1 md:text-[18px] text-[#AC8A3A] font-semibold font-montserrat underline mb-8 cursor-pointer">
             Discover Our Solutions <MdArrowOutward />
           </span>
  
