@@ -32,13 +32,13 @@ useEffect(() => {
     <section
       id="curated"
       className="relative w-full overflow-hidden 
-      bg-gradient-to-b from-white via-[#fff9ef] to-[#FFECBC]"
+      bg-gradient-to-b from-white via-[#fff9ef] to-[#EFE8D9]"
     >
       {/* ✅ Animated Content Only */}
       
         <div className="px-8 py-8">
           {/* IMAGE AREA */}
-          <div className="relative w-full h-[360px] md:h-[620px]">
+          <div className="relative w-full h-[500px] md:h-[620px]">
             <img
               src={bgImg}
               alt="Financing Strategy"
@@ -52,6 +52,11 @@ useEffect(() => {
                 Bespoke Financing for <br className="md:block hidden" />
                 Your Wealth Management Goals
               </h2>
+
+              <p className="text-white max-w-3xl leading-7 font-montserrat md:text-[20px] text-base">
+          Arvesta provides a focused range of lending and financial solutions. Our role is not transactional. We focus on clarity, suitability, and long-term client alignment. 
+        </p>
+
             </div>
           </div>
 
@@ -100,19 +105,19 @@ useEffect(() => {
 </div>
 
 
-          {/* CTA BUTTON */}
-          <div className="max-w-7xl mx-auto px-10 mt-16 pb-24 relative z-20">
-            <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=NeoNBFC@neo-group.in&su=Business%20Enquiry&body=Hello%20Team,%0A%0AI%20would%20like%20to%20know%20more%20about%20your%20services."
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="font-instrument w-full bg-[#b48b3c] text-white py-5 rounded-lg flex items-center justify-between px-8 text-2xl md:text-[40px] font-medium shadow-md hover:bg-[#a47c2f] transition">
-                Reach Out To Us
-                <MdArrowOutward className="text-3xl" />
-              </button>
-            </a>
-          </div>
+          <div className="w-full px-4 mt-16 md:max-w-7xl md:mx-auto md:px-10 md:pb-24 relative z-20">
+  <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=NeoNBFC@neo-group.in&su=Business%20Enquiry&body=Hello%20Team,%0A%0AI%20would%20like%20to%20know%20more%20about%20your%20services."
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button className="font-instrument w-full bg-[#b48b3c] text-white py-5 rounded-lg flex items-center justify-between px-6 md:px-8 text-2xl md:text-[40px] font-medium shadow-md hover:bg-[#a47c2f] transition">
+      Reach Out To Us
+      <MdArrowOutward className="text-3xl" />
+    </button>
+  </a>
+</div>
+
 
           {/* BOTTOM DECOR IMAGE */}
           <img

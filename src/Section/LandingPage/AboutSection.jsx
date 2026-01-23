@@ -4,7 +4,7 @@ import SectionZoom from "../../components/SectionZoom";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="w-full bg-white py-24 relative overflow-hidden">
+    <section id="about" className="w-full bg-white py-10 md:py-24 relative overflow-hidden">
 
       {/* Mandala Right Background */}
       <img
@@ -29,7 +29,7 @@ const AboutSection = () => {
 
         {/* RIGHT — TEXT (2/3) */}
         <div className="md:px-8">
-          <p className="font-montserrat text-[#000614] leading-relaxed text-base md:text-xl">
+          <p className="font-montserrat text-[#000614] leading-relaxed text-base md:text-[20px]">
             Arvesta is a Non-Banking Financial Company (NBFC) established under
             the umbrella of the Neo Wealth & Asset Management Group, one of
             India’s most respected financial institutions. While we are backed

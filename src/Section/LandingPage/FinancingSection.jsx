@@ -5,11 +5,7 @@ import { MdArrowOutward } from "react-icons/md";
 import SectionZoom from "../../components/SectionZoom";
  
 const cards = [
-  {
-    title: "Secured SME Financing*",
-    text:
-      "Financing supported by high-quality collateral, evaluated through defined credit assessment and valuation frameworks.",
-  },
+  
   {
     title: "Wealth-Backed Financing",
     text:
@@ -68,11 +64,11 @@ const FinancingSection = () => {
   return (
     <section
       id="finance"
-      className="relative w-full bg-white py-24 overflow-hidden snap-start"
+      className="relative w-full bg-white py-5 md:py-24 overflow-hidden snap-start"
     >
       {/* glow */}
-      <div className="absolute top-0 left-0 w-full h-40 bg-gradient-to-b from-[#FFE9B8]/40 to-transparent" />
-      <div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-t from-[#FFE9B8]/40 to-transparent" />
+      <div className="absolute top-0 left-0 w-full h-40 bg-gradient-to-b from-[#FFF7E3] to-transparent" />
+      <div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-t from-[#FFF8E6] to-transparent" />
  
       <div className="w-full pl-10 lg:pl-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
         {/* LEFT CONTENT */}
@@ -81,13 +77,13 @@ const FinancingSection = () => {
             Financing Designed <br /> with Perspective
           </h2>
  
-          <p className="text-gray-600 max-w-md mb-6 font-montserrat text-base">
+          <p className="text-gray-600 md:text-[20px] max-w-md mb-6 font-montserrat text-base">
             Financing needs rarely arise in isolation. At Arvesta, we always
             design lending solutions with an understanding of the broader
             financial context and aligned with client goals.
           </p>
  
-          <span className="flex items-center gap-1 text-[#AC8A3A] font-semibold underline mb-8 cursor-pointer">
+          <span className="flex items-center gap-1 md:text-[18px] text-[#AC8A3A] font-semibold font-Montserrat underline mb-8 cursor-pointer">
             Discover Our Solutions <MdArrowOutward />
           </span>
  

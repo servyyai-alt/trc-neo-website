@@ -4,12 +4,12 @@ import heroBg from "../../assets/HeroImage/hero-bg.png";
 
 const HeroSection = () => {
   return (
-    <section id="hero" className="w-full bg-black h-screen flex items-center">
+    <section id="hero" className="w-full bg-[#000614] h-screen flex items-center">
       {/* ===== HERO FRAME ===== */}
       <div className="relative flex h-full md:h-screen pl-0 md:pl-0 w-full">
 
         {/* LEFT IMAGE AREA */}
-        <div className="relative w-full md:w-[96%] h-full">
+        <div className="relative w-full xl:pl-15 lg:pl-10 h-full">
           <img
             src={heroBg}
             alt="Hero"
@@ -17,7 +17,7 @@ const HeroSection = () => {
           />
 
           {/* Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-black/20"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/20"></div>
 
           {/* TEXT */}
           <div className="absolute inset-0 flex items-end pb-26 md:pb-28 max-w-7xl">
@@ -36,7 +36,7 @@ const HeroSection = () => {
                 "
               >
                 Structured Financing <br />
-                for Long-Term Wealth Decisions
+                for Long-Term Growth
               </h1>
 
               <p
@@ -51,7 +51,7 @@ const HeroSection = () => {
                 "
               >
                 Designed for individuals, families, and institutions <br className="md:block hidden" />
-                where capital, complexity, and responsibility converge.
+                where capital, complexity, and responsibility converge. 
               </p>
 
             </div>
@@ -61,7 +61,7 @@ const HeroSection = () => {
         {/* RIGHT BORDER STRIP — DESKTOP ONLY */}
         <div className="hidden md:flex w-[4%] h-full flex-col">
           {/* Top Black */}
-          <div className="h-1/2 bg-gradient-to-b from-[#000000] via-[#231A3D] to-[#231A3D]"></div>
+          <div className="h-1/2 bg-gradient-to-b from-[#050308] via-[#231A3D] to-[#231A3D]"></div>
 
           {/* Bottom Purple */}
           <div className="h-1/2 bg-[#000614]"></div>

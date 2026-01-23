@@ -27,7 +27,7 @@ const SupportWealthSection = () => {
           alt=""
         />
 
-        <h2 className="font-playfair md:text-[66px] text-4xl leading-tight mb-6 max-w-xl font-instrument">
+        <h2 className="font-playfair md:text-[66px] text-[30px] leading-tight mb-6 max-w-xl font-instrument">
           We are Here to Support
           Your Long-Term Wealth
           Decisions

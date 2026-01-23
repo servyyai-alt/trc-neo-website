@@ -12,12 +12,13 @@ const Navbar = () => {
       <div className="w-full h-[90px] md:h-[140px] flex">
 
         {/* LEFT LOGO */}
-        <div className="w-1/2 bg-[#050b1f] flex items-center px-6 md:px-12">
+        <div className="w-1/2 bg-[#000614] flex items-center px-6 md:px-12">
           <img src={logo} alt="Logo" className="h-10 md:h-12 w-auto" />
         </div>
 
         {/* RIGHT MENU */}
-        <div className="w-1/2 bg-gradient-to-b from-[#231A3D] to-black flex items-center justify-end px-6 md:px-14">
+        <div className="w-1/2 bg-gradient-to-b from-[#201838] via-[#161027] to-[#050308]
+ flex items-center justify-end px-6 md:px-14">
 
           {/* DESKTOP MENU */}
           {/* <ul className="hidden md:flex gap-10 text-sm uppercase tracking-wider text-[#8D8D8D] font-montserrat">

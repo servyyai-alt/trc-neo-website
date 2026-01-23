@@ -17,9 +17,11 @@ const Footer = () => {
           <div className="md:col-span-3">
             <img src={logo} alt="Arvesta" className="w-54 mb-2" />
 
-            <p className="text-lg text-[#FFF2D5] mb-6">
-              Financial Services Pvt Ltd
-            </p>
+           <p className="text-lg text-[#FFF2D5]/80 font-Montserrat font-light tracking-[0.16em] mb-6">
+  Financial Services Pvt Ltd
+</p>
+
+
 
             <div className="text-sm text-[#8D8D8D] space-y-3">
 
@@ -38,11 +40,11 @@ const Footer = () => {
 
                 <span className="text-[#d6b36a]">|</span>
 
-                <span>License No. 00000000000</span>
+                <span>License No: N-13.02545</span>
               </div>
 
               <div className="flex items-start gap-2 font-montserrat">
-                <HiOutlineLocationMarker className="text-[#8D8D8D] mt-0.5" />
+                <HiOutlineLocationMarker className="text-[#8D8D8D] mt-0.5 text-2xl sm:text-base" />
                 <span>
                   B-903, Marathon Futurex, Lower Parel, Mumbai, Maharashtra - 400013
                 </span>
@@ -53,7 +55,7 @@ const Footer = () => {
 
           {/* ===== WHO WE ARE + PRODUCTS ===== */}
           <div>
-            <p className="text-[#9a9a9a] text-lg mb-4 font-instrument">Who We Are</p>
+            <p className="text-[#9a9a9a] text-lg mb-4 font-instrument ">Who We Are</p>
             <p className="text-white mb-8 font-montserrat">About Us</p>
 
             {/* <p className="text-[#9a9a9a] text-lg mb-4 font-instrument">Products</p> */}
@@ -94,7 +96,7 @@ const Footer = () => {
 
       {/* ===== BOTTOM BLACK BAR ===== */}
       <div className="bg-black py-4">
-        <div className="max-w-7xl mx-auto px-12 text-xs text-[#8D8D8D]">
+        <div className="max-w-7xl mx-auto px-12 text-[12px] font-Montserrat text-[#8D8D8D]">
           © Arvesta Financial Services Private Limited. All Rights Reserved.
         </div>
       </div>
