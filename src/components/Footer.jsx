@@ -11,7 +11,7 @@ const Footer = () => {
 
       {/* ===== TOP FOOTER ===== */}
       <div className="bg-gradient-to-b from-[#231A3D] to-black">
-        <div className="max-w-7xl mx-auto px-12 py-14 grid grid-cols-1 md:grid-cols-6 gap-6">
+        <div className="max-w-7xl mx-auto px-12 py-14 grid grid-cols-1 md:grid-cols-4 gap-6">
 
           {/* ===== LEFT BRAND ===== */}
           <div className="md:col-span-3">
@@ -54,9 +54,9 @@ const Footer = () => {
           </div>
 
           {/* ===== WHO WE ARE + PRODUCTS ===== */}
-          <div>
-            <p className="text-[#9a9a9a] text-lg mb-4 font-instrument ">Who We Are</p>
-            <p className="text-white mb-8 font-montserrat">About Us</p>
+          <div >
+            <p className="text-[#9a9a9a] text-lg mb-4 font-instrument">Who We Are</p>
+            <p className="text-white mb-8 font-montserrat ">About Us</p>
 
             {/* <p className="text-[#9a9a9a] text-lg mb-4 font-instrument">Products</p> */}
             {/* <p className="text-white mb-2 font-montserrat">Lorem Ipsum</p>
@@ -80,7 +80,7 @@ const Footer = () => {
             <p className="text-white mb-2 font-montserrat">Lorem Ipsum</p>
             <p className="text-white mb-6 font-montserrat">Lorem Ipsum</p> */}
 
-            <p className="text-lg tracking-widest text-[#9a9a9a] mb-3 font-montserrat">
+            {/* <p className="text-lg tracking-widest text-[#9a9a9a] mb-3 font-montserrat">
               CONNECT
             </p>
 
@@ -88,7 +88,7 @@ const Footer = () => {
               <FaLinkedin />
               <FaInstagram />
               <FaYoutube />
-            </div>
+            </div> */}
           </div>
 
         </div>
