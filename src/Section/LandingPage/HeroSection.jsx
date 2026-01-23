@@ -44,7 +44,7 @@ const HeroSection = () => {
                   max-w-5xl
                   font-montserrat
                   font-normal
-                  text-[18px] sm:text-[22px] md:text-[26px] lg:text-[30px]
+                  text-[18px] sm:text-[22px] md:text-[30px] lg:text-[30px]
                   leading-[1.3]
                   tracking-normal
                   text-white
