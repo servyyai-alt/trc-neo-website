@@ -8,7 +8,7 @@ const FinanceCard = ({ title, text, isActive }) => {
       ${
         isActive
           ? "bg-gradient-to-b from-[#231A3D] to-black text-white scale-100 opacity-100"
-          : "bg-white border border-[#d6b36a] text-[#1c1b3a] opacity-90 blur-[1px]"
+          : "bg-white border border-[#d6b36a] text-[#1c1b3a] opacity-30 "
       }`}
     >
       <img
@@ -17,11 +17,11 @@ const FinanceCard = ({ title, text, isActive }) => {
         className="absolute -top-12 -right-12 w-56 opacity-15 pointer-events-none"
       />
 
-      <h3 className="font-instrument text-[46px] leading-tight mb-6 relative z-10">
+      <h3 className="font-instrument text-[30px] md:text-[46px] leading-tight mb-6 relative z-10">
         {title}
       </h3>
 
-      <p className="font-montserrat text-[20px] leading-relaxed relative z-10 max-w-sm">
+      <p className="font-montserrat text-[18px] md:text-[20px] leading-relaxed relative z-10 max-w-sm">
         {text}
       </p>
     </div>
