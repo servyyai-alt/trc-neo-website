@@ -10,7 +10,7 @@ const AboutSection = () => {
       <img
         src={mandala}
         alt="Mandala"
-        className="absolute -right-52 top-1/2 -translate-y-1/2 w-[420px] opacity-20 pointer-events-none"
+        className="absolute -right-52 top-1/2 translate-y-34 w-[420px] opacity-20 pointer-events-none"
       />
 
       <div className="max-w-7xl mx-auto px-10 grid grid-cols-1 lg:grid-cols-[1fr_auto_2fr] gap-6 items-center relative z-10">

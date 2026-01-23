@@ -4,12 +4,12 @@ import heroBg from "../../assets/HeroImage/hero-bg.png";
 
 const HeroSection = () => {
   return (
-    <section id="hero" className="w-full bg-[#000614] h-screen flex items-center">
+    <section id="hero" className="w-full bg-[#000614] md:h-screen flex items-center h-[560px] ">
       {/* ===== HERO FRAME ===== */}
       <div className="relative flex h-full md:h-screen pl-0 md:pl-0 w-full">
 
         {/* LEFT IMAGE AREA */}
-        <div className="relative w-full xl:pl-15 lg:pl-10 h-full">
+        <div className="relative w-full xl:pl-15 lg:pl-10 h-full ">
           <img
             src={heroBg}
             alt="Hero"
@@ -20,7 +20,7 @@ const HeroSection = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10"></div>
 
           {/* TEXT */}
-          <div className="absolute inset-0 flex items-end pb-26 md:pb-28 max-w-7xl">
+          <div className="absolute inset-0 flex items-end pb-20 md:pb-28 max-w-7xl">
             <div className="px-8 md:px-14 md:pl-30 text-white ">
 
               <h1
@@ -28,10 +28,10 @@ const HeroSection = () => {
                   
                   font-instrument
                   font-normal
-                  text-[34px] sm:text-[44px] md:text-[64px] lg:text-[80px]
+                  text-[42px] sm:text-[44px] md:text-[64px] lg:text-[80px]
                   leading-[1.1] lg:leading-[1.05]
                   tracking-[-0.01em]
-                  mb-6 md:mb-8 
+                  mb-3 md:mb-8 
                   text-white
                 "
               >
@@ -44,7 +44,7 @@ const HeroSection = () => {
                   max-w-5xl
                   font-montserrat
                   font-normal
-                  text-[16px] sm:text-[22px] md:text-[30px] lg:text-[30px]
+                  text-[16px] sm:text-[22px] md:text-[20px] lg:text-[25px]
                   leading-[1.3]
                   tracking-normal
                   text-white
