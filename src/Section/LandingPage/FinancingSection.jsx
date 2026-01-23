@@ -6,20 +6,20 @@ import SectionZoom from "../../components/SectionZoom";
  
 const cards = [
   
-  {
-    title: "Wealth-Backed Financing",
-    text:
-      "Solutions structured against financial assets, with appropriate safeguards and ongoing monitoring.",
-  },
+  // {
+  //   title: "Wealth-Backed Financing",
+  //   text:
+  //     "Solutions structured against financial assets, with appropriate safeguards and ongoing monitoring.",
+  // },
   {
     title: "ESOP Financing",
     text:
       "Customised financing for individuals, families, and institutions—aligned with broader financial, tax, and estate considerations.",
   },
   {
-    title: "Structured Financial Solutions",
+    title: "Lending Against Financial Assets",
     text:
-      "Bespoke structures developed in collaboration with clients and advisors, designed for clarity, durability, and governance.",
+      "Unlock the value of your investments with our Loan Against Securities. Access structured financing against shares, mutual funds, and bonds, designed with clarity, discipline, and appropriate safeguards.",
   },
 ];
  
@@ -77,13 +77,13 @@ const FinancingSection = () => {
             Financing Designed <br /> with Perspective
           </h2>
  
-          <p className="text-gray-600 md:text-[20px] max-w-md mb-6 font-montserrat text-base">
+          <p className="text-gray-600 md:text-[20px] max-w-md mb-6 font-montserrat text-[16px]">
             Financing needs rarely arise in isolation. At Arvesta, we always
             design lending solutions with an understanding of the broader
             financial context and aligned with client goals.
           </p>
  
-          <span className="flex items-center gap-1 md:text-[18px] text-[#AC8A3A] font-semibold font-Montserrat underline mb-8 cursor-pointer">
+          <span className="flex items-center gap-1 md:text-[18px] text-[16px] text-[#AC8A3A] font-semibold font-montserrat underline mb-8 cursor-pointer">
             Discover Our Solutions <MdArrowOutward />
           </span>
  
@@ -91,14 +91,14 @@ const FinancingSection = () => {
           <div className="flex gap-3">
             <button
               onClick={prev}
-              className="w-12 h-12 rounded-full flex items-center justify-center bg-[#b48b3c] text-white"
+              className="w-12 h-12 rounded-full flex items-center justify-center bg-[#AC8A3A] text-white"
             >
               <LuArrowLeft />
             </button>
  
             <button
               onClick={next}
-              className="w-12 h-12 rounded-full flex items-center justify-center bg-[#b48b3c] text-white"
+              className="w-12 h-12 rounded-full flex items-center justify-center bg-[#AC8A3A] text-white"
             >
               <LuArrowRight />
             </button>

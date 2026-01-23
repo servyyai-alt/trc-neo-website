@@ -11,13 +11,13 @@ const Footer = () => {
 
       {/* ===== TOP FOOTER ===== */}
       <div className="bg-gradient-to-b from-[#231A3D] to-black">
-        <div className="max-w-7xl mx-auto px-12 py-14 grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div className="max-w-7xl mx-auto px-12 py-14 grid grid-cols-1 md:grid-cols-4 gap-5">
 
           {/* ===== LEFT BRAND ===== */}
           <div className="md:col-span-3">
             <img src={logo} alt="Arvesta" className="w-54 mb-2" />
 
-           <p className="text-lg text-[#FFF2D5]/80 font-Montserrat font-light tracking-[0.16em] mb-6">
+           <p className="text-lg text-[#FFF2D5]/80 font-montserrat font-light tracking-[0.12em] mb-6">
   Financial Services Pvt Ltd
 </p>
 
@@ -28,14 +28,14 @@ const Footer = () => {
               <div className="flex flex-wrap items-center gap-x-2 gap-y-2 font-montserrat">
                 <div className="flex items-center gap-2">
                   <FiPhone className="text-[#8D8D8D]" />
-                  <span>+91-22-66423600</span>
+                  <span>+91-266423640</span>
                 </div>
 
                 <span className="text-[#d6b36a]">|</span>
 
                 <div className="flex items-center gap-2">
                   <FiMail className="text-[#8D8D8D]" />
-                  <span> NeoNBFC@neo-group.in</span>
+                  <span> support@arvesta.in</span>
                 </div>
 
                 <span className="text-[#d6b36a]">|</span>
@@ -55,7 +55,7 @@ const Footer = () => {
 
           {/* ===== WHO WE ARE + PRODUCTS ===== */}
           <div >
-            <p className="text-[#9a9a9a] text-lg mb-4 font-instrument">Who We Are</p>
+            <p className="text-[#9a9a9a] text-[28px] mb-2 font-instrument mt-10 md:mt-0">Who We Are</p>
             <p className="text-white mb-8 font-montserrat ">About Us</p>
 
             {/* <p className="text-[#9a9a9a] text-lg mb-4 font-instrument">Products</p> */}
@@ -96,7 +96,7 @@ const Footer = () => {
 
       {/* ===== BOTTOM BLACK BAR ===== */}
       <div className="bg-black py-4">
-        <div className="max-w-7xl mx-auto px-12 text-[12px] font-Montserrat text-[#8D8D8D]">
+        <div className="max-w-7xl mx-auto px-12 text-[12px] font-montserrat text-[#8D8D8D]">
           © Arvesta Financial Services Private Limited. All Rights Reserved.
         </div>
       </div>

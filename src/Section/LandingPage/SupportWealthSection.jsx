@@ -17,23 +17,23 @@ const SupportWealthSection = () => {
 
         <img
           src={mandala}
-          className="absolute -top-24 -right-24 w-72 opacity-20 pointer-events-none"
+          className="absolute -top-24 -right-24 w-65 opacity-20 pointer-events-none"
           alt=""
         />
 
         <img
           src={mandala}
-          className="absolute -bottom-24 -left-24 w-72 opacity-20 pointer-events-none rotate-180"
+          className="absolute -bottom-24 -left-24 w-65 opacity-20 pointer-events-none rotate-180"
           alt=""
         />
 
-        <h2 className="font-playfair md:text-[66px] text-[30px] leading-tight mb-6 max-w-xl font-instrument">
+        <h2 className="font-playfair md:text-[66px] text-[32px] leading-tight mb-6 max-w-xl font-instrument">
           We are Here to Support
           Your Long-Term Wealth
           Decisions
         </h2>
 
-        <p className="text-[#AC8A3A] max-w-xl leading-7 font-montserrat md:text-[20px] text-base">
+        <p className="text-[#AC8A3A] max-w-xl leading-5 font-montserrat md:text-[20px] text-base">
           At Arvesta, we engage with clients in situations where financing
           plays a supportive, well-defined role.
         </p>
@@ -52,7 +52,7 @@ const SupportWealthSection = () => {
           return (
             <div
               key={i}
-              className={`px-12 py-13 text-[#1c1b3a] text-xl md:text-[30px] font-montserrat border-b border-[#f0e1b9] ${bgClasses[i]}`}
+              className={`px-12 md:py-13 py-8 text-[#1c1b3a] text-[18px] md:text-[22px] font-montserrat border-b border-[#f0e1b9] ${bgClasses[i]}`}
             >
               {text}
             </div>
