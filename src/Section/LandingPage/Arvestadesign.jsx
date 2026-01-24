@@ -22,7 +22,7 @@ const Arvestadesign = () => {
           <img
             src={mandala}
             alt=""
-            className="absolute -right-92 top-1/2 translate-y-34 md:-translate-y-1/2 w-[420px] opacity-20 pointer-events-none"
+            className="absolute -right-40 md:-right-50 lg:-right-65 xl:-right-92 top-1/2 translate-y-34 md:-translate-y-1/2 w-[420px] opacity-20 pointer-events-none"
           />
 <div className="px-6 md:px-0">
           <h2 className="font-instrument leading-tight text-4xl lg:text[30px] xl:text-[64px] text-[#AC8A3A] mb-5 relative z-10">
