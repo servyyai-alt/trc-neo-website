@@ -7,9 +7,13 @@ const HeroSection = () => {
     <section id="hero" className="w-full bg-[#000614] md:h-screen flex items-center h-[560px] ">
       {/* ===== HERO FRAME ===== */}
       <div className="relative flex h-full md:h-screen pl-0 md:pl-0 w-full">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10"></div>
 
         {/* LEFT IMAGE AREA */}
-        <div className="relative w-full xl:pl-15 lg:pl-10 h-full ">
+        <div className="relative w-full xl:pl-15 lg:pl-10 h-full pb-5 lg:pb-15">
+          {/* Bottom fade / cutoff */}
+<div className="absolute bottom-0 left-0 w-full h-10 md:h-20 lg:h-30 bg-gradient-to-t from-[#000614] via-[#070C18] to-transparent"></div>
+
           <img
             src={heroBg}
             alt="Hero"
@@ -20,7 +24,7 @@ const HeroSection = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10"></div>
 
           {/* TEXT */}
-          <div className="absolute inset-0 flex items-end pb-20 md:pb-28 max-w-7xl">
+          <div className="absolute inset-0 flex items-end pb-20 md:pb-20 xl:pb-28 max-w-7xl">
             <div className="px-8 md:px-14 md:pl-30 text-white ">
 
               <h1

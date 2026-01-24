@@ -54,14 +54,14 @@ const Footer = () => {
           </div>
 
           {/* ===== WHO WE ARE + PRODUCTS ===== */}
-          <div >
+          {/* <div >
             <p className="text-[#9a9a9a] text-[28px] mb-2 font-instrument mt-10 md:mt-0">Who We Are</p>
-            <p className="text-white mb-8 font-montserrat ">About Us</p>
+            <p className="text-white mb-8 font-montserrat ">About Us</p> */}
 
             {/* <p className="text-[#9a9a9a] text-lg mb-4 font-instrument">Products</p> */}
             {/* <p className="text-white mb-2 font-montserrat">Lorem Ipsum</p>
             <p className="text-white font-montserrat">Lorem Ipsum</p> */}
-          </div>
+          {/* </div> */}
 
           {/* ===== INVESTOR CONTACT ===== */}
           <div>

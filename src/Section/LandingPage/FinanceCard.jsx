@@ -18,7 +18,13 @@ const FinanceCard = ({ title, text, isActive }) => {
       />
 
       <h3 className="font-instrument text-[32px] md:text-[46px] leading-tight mb-6 relative z-10">
-        {title}
+        {title === "ESOP Financing" ? (
+    <>
+      ESOP <br /> Financing
+    </>
+  ) : (
+    title
+  )}
       </h3>
 
       <p className="font-montserrat text-[16px] md:text-[20px] leading-relaxed relative z-10 max-w-sm">

@@ -14,7 +14,7 @@ const cards = [
   {
     title: "ESOP Financing",
     text:
-      "Customised financing for individuals, families, and institutions—aligned with broader financial, tax, and estate considerations.",
+     "ESOP financing supports employees in  accessing ownership opportunities by  enabling funding for stock option exercise,  while preserving liquidity and aligning with  long-term wealth objectives.",
   },
   {
     title: "Lending Against Financial Assets",
