@@ -6,7 +6,7 @@ import FinancingSection from '../Section/LandingPage/FinancingSection'
 import GrowthSection from '../Section/LandingPage/SupportWealthSection'
 import CuratedSolutionsSection from '../Section/LandingPage/CuratedSolutionsSection'
 import SectionZoom from '../components/SectionZoom'
-import Arvestadesign from '../Section/LandingPage/arvestadesign'
+import Arvestadesign from '../Section/LandingPage/Arvestadesign'
 
 function LandingPage() {
   return (
