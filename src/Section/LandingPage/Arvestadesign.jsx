@@ -11,7 +11,7 @@ const Arvestadesign = () => {
           <img
             src={img1}
             alt="Growth"
-            className="w-[85%] sm:w-[70%] md:w-full max-w-md md:max-w-lg h-auto object-cover"
+            className="w-[85%] sm:w-[70%] md:w-full max-w-full md:max-w-lg h-auto object-cover"
           />
         </div>
 
@@ -24,7 +24,7 @@ const Arvestadesign = () => {
             alt=""
             className="absolute -right-52 top-1/2 translate-y-34 md:-translate-y-1/2 w-[420px] opacity-20 pointer-events-none"
           />
-
+<div className="px-6 md:px-0">
           <h2 className="font-instrument leading-tight text-4xl lg:text[30px] xl:text-[14px] text-[#AC8A3A] mb-5 relative z-10">
             Arvesta – Designed for Your
             <br className="hidden sm:block" />
@@ -38,7 +38,7 @@ const Arvestadesign = () => {
             data-driven, and long-term outcomes matter more than short-term
             cycles.
           </p>
-
+</div>
         </div>
       </div>
     </section>
