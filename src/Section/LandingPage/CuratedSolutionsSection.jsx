@@ -11,7 +11,6 @@ const cardData = [
   { title: "Disciplined credit\nevaluation" },
   { title: "Bespoke structuring\naligned to client objectives" },
   { title: "Ongoing monitoring\nand governance" },
-  { title: "Alignment with broader wealth objectives" },
 ];
 
 const CuratedSolutionsSection = () => {
@@ -63,15 +62,12 @@ const CuratedSolutionsSection = () => {
     flex flex-col justify-end pb-16 md:pb-30"
   >
     <h2 className="font-instrument text-4xl lg:text-7xl text-white mb-4">
-      Bespoke Financing for <br className="hidden md:block" />
-      Your Wealth Management Goals
+      Thoughtfully Curated Financing Solutions 
     </h2>
 
     <p className="text-white max-w-3xl leading-6 font-montserrat
       md:text-[20px] text-[16px]">
-      Arvesta provides a focused range of lending and financial
-      solutions. Our role is not transactional. We focus on clarity,
-      suitability, and long-term client alignment.
+      Arvesta provides a focused range of lending and financial solutions. Our role is not transactional. We focus on clarity, suitability, and long-term client alignment. 
     </p>
   </div>
 </div>
@@ -135,7 +131,7 @@ const CuratedSolutionsSection = () => {
 
 
               {/* ✅ DESKTOP GRID (UNCHANGED) */}
-              <div className="hidden md:grid grid-cols-4 gap-8">
+              <div className="hidden md:grid grid-cols-3 gap-8">
                 {cardData.map((card, index) => (
                   <div
                     key={index}

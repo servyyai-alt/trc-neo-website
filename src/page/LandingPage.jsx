@@ -6,6 +6,7 @@ import FinancingSection from '../Section/LandingPage/FinancingSection'
 import GrowthSection from '../Section/LandingPage/SupportWealthSection'
 import CuratedSolutionsSection from '../Section/LandingPage/CuratedSolutionsSection'
 import SectionZoom from '../components/SectionZoom'
+import Arvestadesign from '../Section/LandingPage/arvestadesign'
 
 function LandingPage() {
   return (
@@ -23,8 +24,10 @@ function LandingPage() {
         <FinancingSection />
       {/* </SectionZoom> */}
 
+      <Arvestadesign/>
+
       {/* <SectionZoom> */}
-        <GrowthSection />
+        {/* <GrowthSection /> */}
       {/* </SectionZoom> */}
 
 
